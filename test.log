@@ -1,0 +1,98 @@
+This is LuaTeX, Version 1.22.0 (MiKTeX 25.4) (format=dvilualatex 2025.11.24)  24 NOV 2025 18:37
+ restricted system commands enabled.
+**c:/Users/cheza/Documents/GitHub/My-own-CRM/test.tex
+(c:/Users/cheza/Documents/GitHub/My-own-CRM/test.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-06>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "C:/Users/cheza/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "C:/Program Files/MiKTeX/tex/luatex/luaotfload/fontloader-2023-12-28.
+lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/cheza/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. ("C:/Program Files/MiKT
+eX/tex/latex/base/article.cls"
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+("C:/Program Files/MiKTeX/tex/latex/base/size10.clo"
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/cheza/AppData/Local/M
+iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz
+Inserting `luaotfload.dvi' in `pre_shipout_filter'.)
+\c@part=\count273
+\c@section=\count274
+\c@subsection=\count275
+\c@subsubsection=\count276
+\c@paragraph=\count277
+\c@subparagraph=\count278
+\c@figure=\count279
+\c@table=\count280
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen147
+)
+("C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-dvips.def"
+File: l3backend-dvips.def 2025-10-09 L3 backend support: dvips
+\l__pdfannot_backend_content_box=\box53
+\l__pdfannot_backend_model_box=\box54
+\g__pdfannot_backend_int=\count281
+\g__pdfannot_backend_link_int=\count282
+\g__pdfannot_backend_link_sf_int=\count283
+) (./test.aux)
+\openout1 = test.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+ [1
+
+] (./test.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-06>
+ ***********
+)
+
+Here is how much of LuaTeX's memory you used:
+ 448 strings out of 476076
+ 100000,460012 words of node,token memory allocated
+ 406 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 48 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 2:32,3:8,4:1,5:25,6:3,7:178,9:30,11:3
+ 22974 multiletter control sequences out of 65536+600000
+ 16 fonts using 855111 bytes
+ 35i,5n,37p,156b,142s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on test.dvi (1 page, 452 bytes).
