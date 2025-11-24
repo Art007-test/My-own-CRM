@@ -1,8 +1,82 @@
-\documentclass{article}
-%!TEX program = pdflatex
+\documentclass[12pt, letterpaper]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
 
+\usepackage{physics}
+\usepackage{siunitx}
+\usepackage{cancel}
+
+\usepackage{bm}
+\usepackage{mathrsfs}
+\usepackage{xfrac}
+
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{multicol}
+
+\title{My Own CRM}
+\author{Par Moi}
+\date{Novembre 2025}
 \begin{document}
+\maketitle
+\noindent Ce document est écrit en \LaTeX{}
+\\
 
-Hello world! This is myt written in VS Code.
-
+\hspace*{2em}\textbf{\underline{Mathématique}}
+\newline
+\newline
+\textbf{\underline{Equation différentielle:}}
+\\
+Nous allons premièrement résoudre les équations linéaire du premier ordre, donc de la forme: $y' + a(x)y = b(x)$
+\newline
+Nous commençons par définir $h(x) = e^{\int a(x)\, dx}$
+\newline
+\[
+y' + a(x)y = b(x) 
+\]
+\[
+\Leftrightarrow h(x)y' + h(x)a(x)y = h(x)b(x)
+\]
+\[
+\Leftrightarrow \frac{d}{dx} \biggl( h(x) y \biggr) = b(x) h(x)
+\]
+\[
+\Leftrightarrow y = \frac{\int b(x)h(x)\, dx + c}{h(x)}
+\]
+\newline
+Notre solution générale s'écrit donc:
+\[
+y(x) = \left(\int b(x)e^{\int a(x)\, dx}\, dx + c \right)e^{-\int a(x)\, dx}
+\]
+Equation différentielle linéaire du second degré à coefficient constants:\\
+Equation différentielle linéaire du second degré à coefficient variables:
+\newpage
+\noindent \textbf{\underline{Algèbre:}}
+\newline
+\newline
+\underline{Identité:}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$(a+b)^2 = a^2+2ab+b^2$ & $(a-b)^2 = a^2-2ab+b^2$ \\
+\hline
+$(a+b)^3 = a^3+3a^2b+ 3ab^2+b^3$ & $(a-b)^3 = a^3-3a^2b+ 3ab^2-b^3$ \\
+\hline
+\multicolumn{2}{|c|}{$(a+b)^n = \sum_{k=0}^{n}\binom{n}{k}a^{n-k} b^k$} \\  % prend les 2 colonnes
+\hline
+$a^2-b^2 = (a-b)(a+b)$ & $a^2+b^2 = (a-ib)(a+ib)$\\
+\hline
+\end{tabular}
+\end{center}
+\underline{Puissances et racines:}
+\\
+\\
+\underline{Nombres complexes:}
+\\
+Nous notons i, un nombre tel que $i^2 = -1$
+\\
+Forme algébrique: $z = a+ib$ où $a,b \in \mathbb{R}$
+%this is to write comment
 \end{document}
