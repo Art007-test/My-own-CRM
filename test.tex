@@ -355,6 +355,67 @@ Le \textit{conjugué} de z est $\bar{z} = a-bi = re^{-i\theta}$
         \end{tabular}
     \end{center}
 \newpage
+\hspace*{2em}\textbf{\underline{Physique:}}
+\\
+\\
+\textbf{Les Condensateurs: }
+Ils sont définie par la charge divisé par la tension entre les bornes
+\\
+C est la charge d'un Condensateur
+\[
+C = \frac{Q}{U}
+\]
+
+\underline{Loi d'association:}
+\\
+En série:
+\[
+\frac{1}{C_{tot}} = \sum_{i}^{}\frac{1}{C_i}
+\]
+En parralèle:
+\[
+C_{tot} = \sum_{i}^{} C_i
+\]
+\\
+\underline{Energie stockée:}
+\[
+E = \frac{CU^2}{2} = \frac{Q^2}{2C}
+\]
+\underline{Charge et Décharge: }
+\\
+\\
+$U$ est la tension au bornes du Condensateurs, $U_0$ la tension initiale, $R$ la résistence du circuit
+\\
+\\
+La charge d'un Condensateurs:
+\[
+U_C(t) = U_0(1-e^{\frac{-t}{RC}})
+\]
+
+On applique la loi des mailles:
+\[
+U_R + U_C = U_0
+\]
+de plus $Q = C U_C$ et $I = \frac{dq}{dt}$. On a donc l'équation différentielle:
+\[
+\frac{dU_C}{dt} + \frac{U_C}{RC} = \frac{U_0}{RC}
+\]
+
+
+\noindent La décharge d'un Condensateur:
+\[
+U = U_0e^{\frac{-t}{RC}}
+\]
+On applique la loi des mailles:
+\[
+U_R = U_C = RI
+\]
+de plus $Q = C U_C$ et $I = \frac{dq}{dt}$. On a donc l'équation différentielle:
+\[
+\frac{dU_C}{dt} + \frac{U_C}{RC} = 0
+\]
+
+\newpage
 \textbf{Source :} \\
 %https://fr.wikipedia.org/wiki/%C3%89quation_diff%C3%A9rentielle_lin%C3%A9aire_d%27ordre_deux#%C3%89quation_diff%C3%A9rentielle_homog%C3%A8ne
 %this is to write comment
